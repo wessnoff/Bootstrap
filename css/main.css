@@ -27,7 +27,7 @@ body {
     text-align: center;
   }
   #main_txt_header {
-    color:#555;
+    color:white;
     text-align: center;
     margin-top: 5px;
   }
@@ -100,12 +100,12 @@ hr {
 
   #headerwrap {
     background: url(../assets/main_backgrd.jpg) no-repeat center top;
-    margin-top: -10px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding-top: 50px;
     text-align: center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 500px;
+    min-height: 600px;
     width:100%;
 
     -webkit-background-size: cover;
@@ -113,3 +113,9 @@ hr {
     -o-background-size: cover;
     background-size: cover;
   }
+
+#metodika{
+  margin-left:  50%;
+  margin-right: 50%;
+  background-color: #313245;
+}
