@@ -26,6 +26,7 @@ body {
     margin-bottom: 5px;
     text-align: center;
   }
+
   #main_txt_header {
     color:white;
     text-align: center;
@@ -118,4 +119,9 @@ hr {
   margin-left:  50%;
   margin-right: 50%;
   background-color: #313245;
+}
+
+#foot {
+  background-color: #2d2d2d;
+
 }
