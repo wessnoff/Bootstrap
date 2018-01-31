@@ -10,7 +10,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -23,11 +23,11 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#section_about">О нас</a></li>
-          <li><a href="#section_exercice">Тренировки</a></li>
-          <li><a href="#section_study">Обучение и семинары</a></li>
-          <li><a href="#section_cost">Лист</a></li>
-          <li><a href="#foot">Контакты</a></li>
+          <li class="active"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">О нас</a></li>
+          <li class="active"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Тренировки</a></li>
+          <li class="active"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Обучение и семинары</a></li>
+          <li class="active"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Лист</a></li>
+          <li class="active"><a href="#foot">Контакты</a></li>
         </ul>
 
       </div>
@@ -52,14 +52,14 @@
 <div id="About_ekzarta" class="container-fluid">
   <div class="panel-group" id="accordion">
         <!-- О методике экзарта-->
-  		<div id="section_about" class="container-fluid">
+
   			<div class="panel panel-default">
   			  <div class="panel-heading">
   				<h4 class="panel-title">
   				  <a class="info" data-toggle="collapse" data-parent="#accordion" href="#collapse1"><h3>О методике Экзарта</h3></a>
   				</h4>
   			  </div>
-  			  <div id="collapse1" class="panel-collapse collapse in">
+  			  <div id="collapse1" class="panel-collapse collapse">
   				<div class="panel-body">
   					  <p class="main_txt">Кинезиологическая методика Экзарта востребована по всему миру, в профессиональном спорте и фитнесе. Применяется она для коррекции опорно-двигательного аппарата путем тренировки мышц с использованием принципов нервно-мышечной активации.</p>
   					  <p class="main_txt">Уникальность методики заключается в том, что она позволяет быстро установить взаимосвязь между мышцами и увеличивает выносливость и мышечную силу в короткие сроки. Система позволяет быстро адаптировать человека к повседневной жизни, во время которой наш организм накапливает микротравмы и мы бессознательно снижаем интенсивность, силу и амплитуду работы мышц.</p>
@@ -73,11 +73,11 @@
   				</div>
   			  </div>
   			</div>
-  		</div>
+
   		<!-- О методике экзарта-->
 
   		<!-- Тренировки-->
-  		<div id="section_exercice" class="container-fluid">
+
   			<div class="panel panel-default">
   			  <div class="panel-heading">
   				<h4 class="panel-title">
@@ -92,11 +92,11 @@
   				</div>
   			  </div>
   			</div>
-  		</div>
+
   		<!-- Тренировки-->
 
   		<!-- Обучение и семинары-->
-  		<div id="section_exercice" class="container-fluid">
+
   			<div class="panel panel-default">
   			  <div class="panel-heading">
   				<h4 class="panel-title">
@@ -118,12 +118,12 @@
   						Курс ЭКЗАРТА Silver наглядно демонстрирует возможности применения установки «ЭКЗАРТА» для минимизации усилий инструктора при необходимости в тяжелой механической работе, с использованием ключевых биомеханических принципов оптимальной активации мышц и улучшения функций:
   					  </p>
   					  <ul>
-  						<li>большое количество упражнений в закрытой кинематической цепи (упражнения с весом собственного тела)</li>
-  						<li>неустойчивость (нестабильность) опоры</li>
-  						<li>движения в нескольких плоскостях (3D-тренировка)</li>
-  						<li>точная прогрессия</li>
-  						<li>движения без боли</li>
-  						<li>движения без боли</li>
+    						<li>большое количество упражнений в закрытой кинематической цепи (упражнения с весом собственного тела)</li>
+    						<li>неустойчивость (нестабильность) опоры</li>
+    						<li>движения в нескольких плоскостях (3D-тренировка)</li>
+    						<li>точная прогрессия</li>
+    						<li>движения без боли</li>
+    						<li>движения без боли</li>
   					  </ul>
   					  <p class="main_txt">Пройдя курс ЭКЗАРТА Silver, вы сможете быстро помочь своим пациентам!</p>
   					  <p><h3>2-я ступень - ЭКЗАРТА Gold</h3></p>
@@ -135,11 +135,11 @@
   						ЭКЗАРТА Gold включает:
   					  </p>
   					  <ul>
-  						<li>ЭКЗАРТА Gold Спина и таз</li>
-  						<li>ЭКЗАРТА Gold Шея</li>
-  						<li>ЭКЗАРТА Gold Верхние конечности</li>
-  						<li>ЭКЗАРТА Gold Нижние конечности</li>
-  						<li>ЭКЗАРТА Gold Интеграция. Уроки мастерства.</li>
+    						<li>ЭКЗАРТА Gold Спина и таз</li>
+    						<li>ЭКЗАРТА Gold Шея</li>
+    						<li>ЭКЗАРТА Gold Верхние конечности</li>
+    						<li>ЭКЗАРТА Gold Нижние конечности</li>
+    						<li>ЭКЗАРТА Gold Интеграция. Уроки мастерства.</li>
   					  </ul>
   					  <p class="main_txt">
   						После успешного освоения программы ЭКЗАРТА Gold вы поднимете эффективность работы со сложными пациентами на новую высоту!
@@ -159,10 +159,10 @@
   				</div>
   			  </div>
   			</div>
-  		</div>
+
   		<!-- Обучение и семинары-->
   		<!-- прайс-лист-->
-  		<div id="section_cost" class="container-fluid">
+
   			<div class="panel panel-default">
   			  <div class="panel-heading">
   				<h4 class="panel-title">
@@ -190,13 +190,10 @@
   				</div>
   			  </div>
   			</div>
-  		</div>
+
   	<!-- прайс-лист-->
   </div>
 </div>
-
-
-
 
 
 <div id="partners" class="container-fluid">
