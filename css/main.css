@@ -200,14 +200,42 @@ hr {
 .col-lg-8 .col-lg-offset-2 {
   margin: 50px;
 }
-
+/* footer*/
 .footer {
     position: fixed;
-    height: 100px;
+    height: 150px;
     bottom: 0;
     width: 100%;
+    background-color:#2d2d2d ;
+}
+#socialslnk i {
+  font-size: 30px;
+  padding: 10px;
+
+}
+#socialslnk a:hover a:focus {
+  color: #c9302c;
+}
+#socialslnk {
+  height: 50px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+#contacts {
+  background-color: #2d2d2d;
+}
+
+#contacts i {
+  font-size: 26px;
+  padding: 5px;
+  color: #f07d00;
+}
+/* footer*/
 .jumbotron {
    background: rgb(52, 53, 71); /* This is for ie8 and below */
    background: rgba(52, 53, 71, 0.7);
